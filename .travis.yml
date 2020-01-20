@@ -18,6 +18,9 @@
 # Configuration file for Travis continuous integration.
 # See https://travis-ci.org/apache/calcite
 language: java
+arch: ppc64le
+os:
+  - linux
 matrix:
   fast_finish: true
   include:
